@@ -5,7 +5,6 @@ import ListaSuspensa from "../ListaSuspensa";
 import "./Formulario.css";
 
 const Formulario = (props) => {
-  const rotas = ["Top", " Jungler", "Mid", "Adc", "Suporte"];
 
   const [nick, setNick] = useState("");
   const [elo, setElo] = useState("");
@@ -21,6 +20,10 @@ const Formulario = (props) => {
       imagem,
       elo,
     });
+    setNick('')
+    setIMagem('')
+    setElo('')
+    setRota('')
   };
 
   return (
@@ -29,7 +32,7 @@ const Formulario = (props) => {
         <h2>Preencha os dados para criar o card de invocador</h2>
         <CampoTexto
           obrigatorio={true}
-          label="NickName"
+          label="Nick"
           placeholder="Digite seu nick"
           value={nick}
           aoAlterado={(valor) => setNick(valor)}
@@ -49,8 +52,8 @@ const Formulario = (props) => {
           aoAlterado={(valor) => setElo(valor)}
         />
         <ListaSuspensa
-          label="rota"
-          itens={rotas}
+          label="Rota"
+          itens={props.times}
           valor={rota}
           aoAlterado={(valor) => setRota(valor)}
         />

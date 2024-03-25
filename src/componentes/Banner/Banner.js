@@ -4,7 +4,7 @@ function  Banner (){
 
     return(
         <header className="banner">
-        <img src="/imagens/banner.png" alt="Banner Principal da pagina Organo"/>
+        <img src="./imagens/Banner-poro-nome.jpg" alt="Banner Principal da LayFriends"/>
         </header>
     )
 
