@@ -2,29 +2,29 @@ import "./rodape.css"
 
 const Rodape = ()=>{
 
-            return (<footer className="footer">
+            return (
+            <footer className="footer">
                 <section>
                     <ul>
                         <li>
-                            <a href="Github" target="_blank">
+                            <a href="https://github.com/laychan25">
                                 <img src="/imagens/github.svg" alt="" />
                             </a>
                         </li>
                         <li>
-                            <a href="Linkedin" target="_blank">
+                            <a href="https://www.linkedin.com/in/laurie-silva25/" >
                                 <img src="/imagens/linkedin.svg" alt="" />
                             </a>
                         </li>
                     </ul>
                 </section>
-                <section>
-                      <h3>LayFriends</h3>
-                </section>
-                <section>
+                <div>
+                    <img src="./imagens/rodape.png" alt="rodape azul claro "/>
                     <p>
                         Desenvolvido por Lay
                     </p>
-                </section>
+               
+                </div>
             </footer>)
         }
         

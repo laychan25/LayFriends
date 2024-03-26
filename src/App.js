@@ -29,8 +29,8 @@ function App() {
     },
     {
       nome: "Top",
-      corPrimaria: "#FFFF00",
-      corSegundaria: "#FFFACD",
+      corPrimaria: "#A52A2A",
+      corSegundaria: "#FA8072",
     },
   ];
 
