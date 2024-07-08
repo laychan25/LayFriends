@@ -2,15 +2,21 @@
   display: block;
   position: relative;
   margin-top: 20px;
+  
+  
 }
 
 .footer ul li {
   display: inline-block;
   margin-right: 32px;
+  width: 35px ;
 }
 
 img {
   width: 100%;
+  
+ 
+  
 }
 
 .footer ul {
@@ -20,15 +26,17 @@ img {
 }
 
 .footer div {
+  height:170px;
   justify-content: right;
   display: flex;
+  
 }
 
 .footer p {
   position: absolute;
-  margin: 5em;
+  margin: 3em;
   color: rgb(3, 28, 44);
-  font-size: 1em;
+  font-size: 1.5em;
   font-family: "Swanky and Moo Moo", cursive;
   font-weight: 400;
 }

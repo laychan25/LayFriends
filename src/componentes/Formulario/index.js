@@ -9,7 +9,6 @@ const Formulario = (props) => {
   const [nick, setNick] = useState("");
   const [elo, setElo] = useState("");
   const [imagem, setIMagem] = useState("");
-
   const [rota, setRota] = useState("");
 
   const aoSalvar = (evento) => {
