@@ -1,9 +1,6 @@
 # LayFriends
 
-O LayFriends foi desenvolvido em aula na alura "Desenvolvendo com JavaScript React: desenvolvendo com JavaScripte" os profesores insentivaram a fazer seu proprio site entao fiz com o tema League of Legends, nele voce adiciona seu nome no jogo, rota e foto do seu personagem favorito
-Gostei muito de desenvolver desde o começo usando o React, achei bem interessante a forma de separar tudo em componentes e em como o JSX funciona.
-O LayFriends tem muito oque melhorar ainda e planejo fazer algumas atualizaçao mais pra frente, quando eu aprender mais.
-
+O LayFriends foi desenvolvido em aula na Alura "Desenvolvendo com Javascript React: desenvolvendo com Javascript" os professores incentivaram a fazer seu próprio site então fiz com o tema League of Legends, nele você adiciona seu nome no jogo, rota e foto do seu personagem favorito. Gostei muito de desenvolver desde o começo usando o React, achei bem interessante a forma de separar tudo em componentes e em como o JSX funciona. O LayFriends tem muito o que melhorar ainda e planejo fazer algumas atualizações mais pra frente, quando eu aprender mais. 
 
 
 
